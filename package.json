@@ -1,0 +1,21 @@
+{
+  "name": "tarea-36",
+  "version": "1.0.0",
+  "description": "Prueba de uso de MVC desde el Backend con ExpressJs",
+  "license": "MIT",
+  "author": "Belén Jacquet",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0",
+    "path": "^0.12.7",
+    "zod": "^4.4.3"
+  }
+}
